@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        .header h1 {
+            margin: 0;
+        }
+        .content {
+            background-color: #fff;
+            padding: 20px;
+            margin-top: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .content h2 {
+            color: #333;
+        }
+        .content p {
+            line-height: 1.6;
+        }
+        .services {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            margin-top: 20px;
+        }
+        .service {
+            flex: 1 1 calc(33.333% - 20px);
+            background-color: #f9f9f9;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .service h3 {
+            margin-top: 0;
+        }
+        @media (max-width: 768px) {
+            .service {
+                flex: 1 1 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>About Us</h1>
+    </div>
+    <div class="container">
+        <div class="content">
+            <h2>Welcome to xBitCode</h2>
+            <p>We are a leading software company specializing in building innovative apps, websites, and software solutions. Our team of experts is dedicated to delivering high-quality products that meet the unique needs of our clients.</p>
+            <p>In addition to our development services, we offer affordable SEO and Social Media Marketing solutions to help your business grow and succeed in the digital world.</p>
+            <div class="services">
+                <div class="service">
+                    <h3>App Development</h3>
+                    <p>We create user-friendly and feature-rich mobile applications tailored to your business needs.</p>
+                </div>
+                <div class="service">
+                    <h3>Website Development</h3>
+                    <p>Our team designs and develops responsive and visually appealing websites that engage your audience.</p>
+                </div>
+                <div class="service">
+                    <h3>Software Solutions</h3>
+                    <p>We provide custom software solutions to streamline your business processes and improve efficiency.</p>
+                </div>
+                <div class="service">
+                    <h3>SEO Services</h3>
+                    <p>Our affordable SEO services help improve your website's visibility and ranking on search engines.</p>
+                </div>
+                <div class="service">
+                    <h3>Social Media Marketing</h3>
+                    <p>We create and manage effective social media campaigns to boost your online presence and engagement.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
